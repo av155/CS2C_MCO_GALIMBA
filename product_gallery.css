@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>McLaren Product Gallery</title>
+    <link rel="stylesheet" href="css/product_gallery.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="img/gallery-header.jpg" class="header-photo" alt="Gallery Header">
+
+        <div class="nav-bar">
+            <ul class="nav-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="product_feature.html">FEATURE PAGE</a></li>
+            </ul>
+        </div>
+
+        <p class="header-text">PORSCHE GALLERY</p>
+    </div>
+
+    <!-- Body Content: Product Grid -->
+    <div id="product-gallery" class="content-section">
+        <h2>Our Cars</h2>
+
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="src/718 cayman.jpg" alt="718  Cayman">
+                <h3>718 Cayman</h3>
+                <p>Is a luxury sports coupe known for its sharp design and thrilling performance</p>
+                <p>3.4 million</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="src/718 boxster.jpg" alt="718 Boxster">
+                <h3>718 Boxster</h3>
+                <p>Is a two seater convertible sportss car with a 2.0 liter turbo engine producing around 300hp.</p>
+                <p>3.5 million</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="src/718 style.jpg" alt="718 Cayman Style Edition">
+                <h3>718 Cayman Style Edition</h3>
+                <p>offers open-top freedom with distinctive design accents, exclusive color options, and sporty elegance, blending everyday usability with unmistakable Porsche performance.</p>
+                <p>4.4 million</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="src/boxster style.jpg" alt="718 Boxster Style Edition">
+                <h3>718 Boxster Style Edition</h3>
+                <p>Offers open-top freedom with distinctive design accents, exclusive color options, and sporty elegance, blending everyday usability with unmistakable Porsche performance.</p>
+                <p>4.7 million</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="src/boxster s.jpg" alt="718 Boxster S">
+                <h3>718 Boxster S </h3>
+                <p>Delivers sharper performance with its turbocharged 2.5-liter engine, precise handling, and iconic mid-engine balance, offering a thrilling yet refined sports car experience.</p>
+                <p>4.2 million</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="src/cayman s.jpg" alt="Cayman S">
+                <h3>Cayman S</h3>
+                <p>Delivers sharper performance with its turbocharged 2.5-liter engine, precise handling, and iconic mid-engine balance, offering a thrilling yet refined sports car experience.</p>
+                <p>4.1 million</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="src/cayman gts 4.0.jpg" alt="718 Cayman GTS 4.0">
+                <h3>718 Cayman GTS 4.0</h3>
+                <p>Is the top-of-the-line performance model in Porsche’s 718 family. It’s built for drivers who want an intense, purist sports car experience with sharp handling, high revs, and track capability</p>
+                <p>8.5 million</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="src/boxster 4.0.jpg" alt="718 Boxster GTS 4.0">
+                <h3>718 Boxster GTS 4.0</h3>
+                <p>Combines the thrill of open-top driving with a naturally aspirated 4.0-liter six-cylinder engine, offering exceptional performance, precise handling, and an unmistakably pure Porsche driving experience.</p>
+                <p>11 million</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="src/spyder.jpg" alt="718 Spyder RS">
+                <h3>718 Spyder RS</h3>
+                <p>Is the ultimate open-top sports car, featuring a high-revving 4.0-liter naturally aspirated six-cylinder engine from the 911 GT3, lightweight design, and track-focused dynamics for an uncompromising driving experience under the open sky.</p>
+                <p>12 milliom</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="src/cayman gt4 rs.jpg" alt="718 Cayman Gt4 RS">
+                <h3>718 Cayman Gt4 RS</h3>
+                <p>Is the top-of-the-line performance model in Porsche’s 718 family. It’s built for drivers who want an intense, purist sports car experience with sharp handling, high revs, and track capability</p> /p>
+                <p>12 million</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="src/carrera.jpg" alt="911 Carrera">
+                <h3>911 Carrera</h3>
+                <p>Is the base model of the modern Porsche 911 line. It balances everyday usability with sports-car performance, offering strong acceleration, refined engineering, rear-engine layout, and Porsche’s signature driving experience.</p>
+                <p>16.3 million</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-item">
+                <img src="src/t.jpg" alt="911 Carrera T">
+                <h3>Carrera T</h3>
+                <p>The “T” stands for Touring, and it represents a purist-oriented trim of the Carrera family. The idea is a sportier, lighter 911 that gives more engagement (especially with a manual transmission) and reduces excess for a more driver-focused
+                    experience
+                </p>
+                <p>7.7 million</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h2>Contact Us</h2>
+        <form class="footer-form" onsubmit="return submitFooterForm(event)">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <input type="text" id="message" name="message" required><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+        <p>Developer:<br>CS2C <br> Ma. Beatrix Dejarisco <br> & <br> Avril Galimba</p>
+    </footer>
+
+    <script src="file.js"></script>
+</body>
+
+</html>
