@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <script src="file.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Resume</h1>
+        <nav>
+            <a href="#intro">About Me</a>
+            <a href="#skills">Skills/Hobbies</a>
+            <a href="#activities">WebDev Activities</a>
+            <a href="product_feature.html">Product Feature Page</a>
+            <a href="product_gallery.html">Product Gallery</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Aside (Left Side Bar) -->
+        <aside>
+            <h3>Month Calendar</h3>
+            <div class="calendar">
+                <h3>July 2006</h3>
+                <table border="1" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td style="background-color: pink; font-weight: bold;">15</td>
+                        <td>16</td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                    </tr>
+                </table>
+            </div>
+
+            <p><a href="https://github.com/av15" target="_blank">Visit My GitHub</a></p>
+        </aside>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Self Introduction -->
+            <section id="intro">
+                <h2>Self Introduction</h2>
+                <img src="src/me.jpg" alt="My Portrait" width="150">
+                <p>I’m Avril S. Galimba, I enjoy blending creativity and technology, and I’m always excited to create projects that reflect my growth and learning.</p>
+            </section>
+
+            <!-- About Me -->
+            <section>
+                <h2>About Me</h2>
+                <p>I am a student exploring the world of Web Development. I enjoy discovering new concepts and using them to build simple yet meaningful projects.</p>
+            </section>
+
+            <!-- Skills/Hobbies -->
+            <section id="skills">
+                <h2>My Skills and Hobbies</h2>
+                <div class="skills">
+                    <div>
+                        <img src="src/code.jpg" alt="Coding" width="180">
+                        <p>I enjoy coding because it allows me to solve problems, build creative projects, and improve my skills in web development.</p>
+                    </div>
+                    <div>
+                        <img src="src/online game.jpg" width="180">
+                        <p>Playing online games, entertain me.</p>
+                    </div>
+                    <div>
+                        <img src="src/podcast.jpg" alt="Music" width="180">
+                        <p> Podcasts inspire me with new ideas and give me a chance to learn while relaxing.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Web Development Activities -->
+            <section id="activities">
+                <h2>Web Development Activities</h2>
+                <div class="activities">
+                    <div>
+                        <img src="src/wd1-a2.jpg" width="100%">
+                        <p>WD1-A2 This activity helped me understand how these parts organize a web page.</p>
+                    </div>
+                    <div>
+                        <img src="src/wd1-t1-a1.jpg" width="100%">
+                        <p>WD1-T1-A1 I learned that HTML structures. CSS styles, and JavaScript adds interactivity to websites, and front-end development focuses on the user interface.</p>
+                    </div>
+                    <div>
+                        <img src="src/wd1-p1.jpg" width="100%">
+                        <p>WD1-P1 I learned how to use HTML tags with attributes and apply font formatting. I also explored RGB, HEX, HSl colors.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <h2>Contact Us</h2>
+        <form class="footer-form" onsubmit="return submitFooterForm(event)">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <input type="text" id="message" name="message" required><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+        <p>Developer:<br>CS2C <br> Ma. Beatrix Dejarisco <br> & <br> Avril Galimbar</p>
+    </footer>
+
+    <script src="js/file.js"></script>
+
+</body>
+
+</html>
